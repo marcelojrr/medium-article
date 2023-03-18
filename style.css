@@ -1,0 +1,51 @@
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.container {
+  max-width: 620px;
+  margin: 50px auto;
+}
+
+.banner h1 {
+  font-size: 40px;
+}
+.banner p {
+  font-size: 35px;
+}
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
+
+.container h2{
+  font-size: 29px;
+  color: grey;
+}
+
+.container p {
+  font-size: 25px;
+}
